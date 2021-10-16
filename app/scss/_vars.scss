@@ -1,0 +1,68 @@
+$accent-color: #fcd7b6;
+$fair-color: #fef7f0;
+$liquid-color: #fef7f0;
+$flaxen-color:#fde3cc;
+$blonde-color: #feefe2;
+$blond-color: #f4f7f8;
+$default-color: #d8d8d8;
+$white-color: #fff;
+$light-color: #edf1f4;
+$bright-color: #a3bbc8; 
+$birch-color: #a9bfcb;
+$browne-color: #cecaca;
+$brown-color: #7b7b7b;
+$lightblue-color: #6f98ac; 
+$turquoise-color: #9dc9eb;
+$blue-color: #436372;
+$indigo-color: #243f4d;
+$darkblue-color: #234969;
+$sapphirine-color: #222933;
+$dark-color: #222933;
+$murky-color: #262626;
+$black-color: #1a1a1a;
+$title-color: #191919;
+
+
+%Rubik-300 {
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+
+%Rubik-400 {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+%Rubik-500 {
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+%Rubik-600 {
+    font-family: 'Rubik';
+    font-weight: 600; 
+}
+
+%DMSans-400 {
+    font-family: 'DMSans';
+    font-weight: 400;
+}
+
+%DMSans-500 {
+    font-family: 'DMSans';
+    font-weight: 500;
+}
+
+%DMSans-700 {
+    font-family: 'DMSans';
+    font-weight: 700;
+}
+
+@function max($numbers...) {
+  @return m#{i}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
